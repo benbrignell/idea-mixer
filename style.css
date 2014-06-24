@@ -67,7 +67,7 @@ a.button {
     text-decoration: none;
     color: #ffffff;
     display: block;
-    width: 80%;
+    width: 40%;
     text-align: center;
 }
 a.button:hover {background: #358c98;}
@@ -87,4 +87,6 @@ a.button:hover {background: #358c98;}
         width: 85%;
     }
     ul  {width: 100%; display: block; }
+
+    a.button {width: 80%;}
 }
