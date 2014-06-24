@@ -1,0 +1,88 @@
+body {
+    background: #4e4540;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #4e4540;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 1em;
+    color: #47bbca;
+    text-align: center;
+  }
+h2 {
+  font-weight: normal;
+  }
+h2 li {
+    line-height: inherit;
+  }
+ul {display: inline;}
+#container {
+  width: 60%;
+  margin: 0 auto;
+  background: #f7f4ed;
+  padding: 1em;
+
+}
+#phrase {
+  padding: 1em;
+  background: #f8f1e0;
+  }
+#hint {
+
+  }
+#footer {
+  color: #aaa;
+  padding: 0.4em;
+  border-top: solid 1px;
+  border-color: #ddd;
+  text-align: center;
+  }
+#business li, #market li {
+    display: none;
+  }
+#business li:first-child, #market li:first-child {
+    display: inline;
+    font-size: 2em;
+    font-weight: bold;
+    color: #f26c51;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: left;
+
+  }
+#business, #market {
+    color: black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+  }
+a {color: #47bbca;}
+a.button {
+
+    background: #47bbca;
+    height: 20px;
+    padding: 1em;
+    margin: 3em auto;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    width: 80%;
+    text-align: center;
+}
+a.button:hover {background: #358c98;}
+/* corners */
+#container, #business li, #market li, .button, #phrase {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+
+}
+@media only screen and (max-width: 700px) {
+  body {margin: 0; padding: 0;}
+	#container {
+        width: 85%;
+    }
+
+}
