@@ -7,9 +7,10 @@ body {
 }
 
 h1 {
-    margin-top: 1em;
     color: #47bbca;
     text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
   }
 h2 {
   font-weight: normal;
